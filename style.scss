@@ -55,13 +55,14 @@
     line-height: 58px;
     width: 377px;
     color: #222222;
-
+    text-transform: uppercase;
 }
 
 .title_bold {
     font-size: 48px;
     font-style: bold;
     font-weight: 900;
+    display: block;
 }
 .title_sub {
     font-size: 32px;
@@ -69,7 +70,7 @@
     font-weight: 700;
 }
 .title .word {
-    color: #ff0627;
+    color: #F16D7F;
 }
 
 .title::before {
@@ -111,6 +112,7 @@
     background-size: contain;
     flex-direction: column;
     position: relative;
+    text-transform: uppercase;
 }
 .offer_item::before {
     content: '';
