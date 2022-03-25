@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #222222;
+  height: 75px;
+  width: 100%;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75px;
+}
+
+.menu_left_search_icon {
+  margin-left: 41px;
+}
+
+.menu_right_icon {
+  margin-right: 33px;
+}
+
+.top_info {
+  height: 764px;
+  background-color: #F1E4E6;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(img/image_man.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.title {
+  margin-right: 250px;
+  position: relative;
+  font-family: 'Lato';
+  line-height: 58px;
+  width: 377px;
+  color: #222222;
+}
+
+.title_bold {
+  font-size: 48px;
+  font-style: bold;
+  font-weight: 900;
+}
+
+.title_sub {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.title .word {
+  color: #ff0627;
+}
+
+.title::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 100%;
+  background-color: #F17C8C;
+  position: absolute;
+  top: -3px;
+  left: -26px;
+}
+
+.offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 65px;
+  margin-bottom: 50px;
+}
+
+.offer_item-lnk {
+  text-decoration: none;
+  width: 360px;
+  height: 260px;
+}
+
+.offer_item-full {
+  width: 100%;
+  height: 180px;
+}
+
+.offer_item {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  background-size: contain;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.offer_item::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #211616;
+  opacity: 0.7;
+  position: absolute;
+  z-index: 0;
+}
+
+.offer_item-full {
+  margin-top: 30px;
+  width: 100%;
+  height: 180px;
+}
+
+.offer_item p {
+  font-style: normal;
+  font-weight: 400;
+  color: #ffff;
+  z-index: 1;
+  font-size: 16px;
+}
+
+.offer_item h3 {
+  font-style: bold;
+  font-weight: 700;
+  color: #F16D7F;
+  font-size: 24px;
+  z-index: 1;
+}
+/*# sourceMappingURL=style.css.map */
